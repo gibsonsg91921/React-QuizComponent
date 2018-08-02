@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import QuizQuestionButton from './QuizQuestionButton';
 
 class QuizQuestion extends Component {
-  state = {}
+  state = { incorrectAnswer: false };
   constructor(props) {
     super(props);
     this.setState({incorrectAnswer: false});
